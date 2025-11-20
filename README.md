@@ -175,64 +175,79 @@ text
 
 land-trading-platform/
 ├── backend/
-│ ├── models/
-│ │ ├── User.js # User schema with OAuth
-│ │ ├── Property.js # Property schema
-│ │ ├── Chat.js # Chat/Message schema
-│ │ └── Favorite.js # User favorites
-│ ├── routes/
-│ │ ├── auth.js # Auth routes (JWT + Google OAuth)
-│ │ ├── property.js # Property CRUD routes
-│ │ ├── chat.js # Chat routes
-│ │ └── user.js # User profile routes
-│ ├── controllers/
-│ │ ├── authController.js # Authentication logic
-│ │ ├── propertyController.js
-│ │ ├── chatController.js
-│ │ └── userController.js
-│ ├── middleware/
-│ │ ├── auth.js # JWT verification
-│ │ ├── upload.js # Multer file upload
-│ │ └── errorHandler.js
-│ ├── config/
-│ │ ├── db.js # MongoDB connection
-│ │ ├── passport.js # Passport Google OAuth
-│ │ └── socket.js # Socket.IO configuration
-│ ├── utils/
-│ │ ├── geocoding.js # Google Maps geocoding
-│ │ └── tokenUtils.js # JWT utilities
-│ ├── sockets/
-│ │ └── chatHandler.js # Socket.IO chat events
-│ └── server.js # Entry point
+│   ├── models/
+│   │   ├── User.js              # User schema with OAuth
+│   │   ├── Property.js          # Property schema
+│   │   ├── Chat.js              # Chat/Message schema
+│   │   └── Favorite.js          # User favorites
+│   │
+│   ├── routes/
+│   │   ├── auth.js              # Auth routes (JWT + Google OAuth)
+│   │   ├── property.js          # Property CRUD routes
+│   │   ├── chat.js              # Chat routes
+│   │   └── user.js              # User profile routes
+│   │
+│   ├── controllers/
+│   │   ├── authController.js    # Authentication logic
+│   │   ├── propertyController.js
+│   │   ├── chatController.js
+│   │   └── userController.js
+│   │
+│   ├── middleware/
+│   │   ├── auth.js              # JWT verification
+│   │   ├── upload.js            # Multer file upload
+│   │   └── errorHandler.js
+│   │
+│   ├── config/
+│   │   ├── db.js                # MongoDB connection
+│   │   ├── passport.js          # Passport Google OAuth
+│   │   └── socket.js            # Socket.IO configuration
+│   │
+│   ├── utils/
+│   │   ├── geocoding.js         # Google Maps geocoding
+│   │   └── tokenUtils.js        # JWT utilities
+│   │
+│   ├── sockets/
+│   │   └── chatHandler.js       # Socket.IO chat events
+│   │
+│   └── server.js                # Entry point
+│
 ├── frontend/
-│ ├── src/
-│ │ ├── components/
-│ │ │ ├── Auth/ # Login, Register components
-│ │ │ ├── Property/ # Property cards, listings
-│ │ │ ├── Chat/ # Chat interface
-│ │ │ ├── Maps/ # Google Maps components
-│ │ │ └── Common/ # Shared components
-│ │ ├── pages/
-│ │ │ ├── Home.jsx
-│ │ │ ├── PropertyDetails.jsx
-│ │ │ ├── Profile.jsx
-│ │ │ ├── Chat.jsx
-│ │ │ └── Search.jsx
-│ │ ├── context/
-│ │ │ ├── AuthContext.jsx # Auth state management
-│ │ │ ├── SocketContext.jsx # Socket.IO context
-│ │ │ └── MapContext.jsx # Maps state
-│ │ ├── hooks/
-│ │ │ ├── useAuth.js
-│ │ │ ├── useSocket.js
-│ │ │ └── useGeolocation.js
-│ │ ├── services/
-│ │ │ ├── api.js # Axios instance
-│ │ │ ├── socket.js # Socket.IO client
-│ │ │ └── maps.js # Google Maps API
-│ │ ├── App.jsx
-│ │ └── main.jsx
-│ └── public/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Auth/            # Login, Register components
+│   │   │   ├── Property/        # Property cards, listings
+│   │   │   ├── Chat/            # Chat interface
+│   │   │   ├── Maps/            # Google Maps components
+│   │   │   └── Common/          # Shared components
+│   │   │
+│   │   ├── pages/
+│   │   │   ├── Home.jsx
+│   │   │   ├── PropertyDetails.jsx
+│   │   │   ├── Profile.jsx
+│   │   │   ├── Chat.jsx
+│   │   │   └── Search.jsx
+│   │   │
+│   │   ├── context/
+│   │   │   ├── AuthContext.jsx  # Auth state management
+│   │   │   ├── SocketContext.jsx# Socket.IO context
+│   │   │   └── MapContext.jsx   # Maps state
+│   │   │
+│   │   ├── hooks/
+│   │   │   ├── useAuth.js
+│   │   │   ├── useSocket.js
+│   │   │   └── useGeolocation.js
+│   │   │
+│   │   ├── services/
+│   │   │   ├── api.js           # Axios instance
+│   │   │   ├── socket.js        # Socket.IO client
+│   │   │   └── maps.js          # Google Maps API
+│   │   │
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   │
+│   └── public/
+│
 └── README.md
 
 text
