@@ -14,6 +14,7 @@ import PropertyEdit from './pages/PropertyEdit';
 import Footer from './components/Footer';
 import Insights from './pages/Insights';
 import Contact from './pages/Contact';
+import ContactUs from './pages/ContactUs';
 import Events from './pages/Events';
 import RegisterInvestor from './pages/RegisterInvestor';
 import ForgotPassword from './pages/ForgotPassword';
@@ -50,6 +51,7 @@ function App() {
           <Route path="/favorites" element={<PrivateRoute><Favorites /></PrivateRoute>} />
           <Route path="/insights" element={<Insights />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/events" element={<Events />} />
           <Route path="/register-investor" element={<RegisterInvestor />} />
           <Route path="/tools" element={<ToolsIndex />} />
