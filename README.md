@@ -1,4 +1,4 @@
-text
+<img width="1919" height="1079" alt="Screenshot 2025-12-05 201430" src="https://github.com/user-attachments/assets/080fceef-132b-42d8-8ec6-1b5387204a40" />text
 # 🏡 Land Trading Platform
 
 A modern, full-stack real estate marketplace for buying, selling, and renting properties across Delhi NCR. Built with the MERN stack featuring real-time chat, Google Maps integration, Google OAuth authentication, and advanced property management.
@@ -78,7 +78,13 @@ A modern, full-stack real estate marketplace for buying, selling, and renting pr
 
 ## 📸 Screenshots
 
-_Coming soon - Application screenshots_
+<img width="1919" height="1032" alt="Screenshot 2025-12-05 201222" src="https://github.com/user-attachments/assets/261f6b97-7b33-4ea1-be6a-eaac12af2264" />
+<img width="1919" height="1079" alt="Screenshot 2025-12-05 201237" src="https://github.com/user-attachments/assets/ac467e48-1e6a-4294-91d3-638c1ba0ac0b" />
+<img width="1919" height="1073" alt="Screenshot 2025-12-05 201324" src="https://github.com/user-attachments/assets/5482e72e-517e-4647-9360-da6e9ada6f61" />
+<img width="1916" height="1072" alt="Screenshot 2025-12-05 201002" src="https://github.com/user-attachments/assets/f661a646-2ef8-46b8-b610-f677107c2e2e" />
+<img width="1919" height="1079" alt="Screenshot 2025-12-05 201519" src="https://github.com/user-attachments/assets/6cdd64f2-5194-41ec-b4dc-aea3a3911e81" />
+<img width="1919" height="1079" alt="Screenshot 2025-12-05 201531" src="https://github.com/user-attachments/assets/9df3727e-c54f-4390-b566-8074cbd2aa54" />
+<img width="1919" height="1079" alt="Screenshot 2025-12-05 201539" src="https://github.com/user-attachments/assets/b9b423b2-c7f2-4fc0-92b3-cea66d8fd233" />
 
 ## 🚀 Quick Start Guide
 
