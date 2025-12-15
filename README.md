@@ -1,4 +1,3 @@
-<img width="1919" height="1079" alt="Screenshot 2025-12-05 201430" src="https://github.com/user-attachments/assets/080fceef-132b-42d8-8ec6-1b5387204a40" />text
 # 🏡 Land Trading Platform
 
 A modern, full-stack real estate marketplace for buying, selling, and renting properties across Delhi NCR. Built with the MERN stack featuring real-time chat, Google Maps integration, Google OAuth authentication, and advanced property management.
